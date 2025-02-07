@@ -3,7 +3,7 @@ Kaip pasileisti projektą
 ### Iš gitHubo parsisiūsti įkeltą main. 
  * Pasirenkam papkę kurioj norėsim susikelt projektą. Pastebėjimas: GitHubas pats sukurs vieną root papkę su pavadinimu 'My-Services', todėl tokios papkės nesikurti atskirai.
 * Atsidarom per terminalą savo papkę kurioj klonuosim projektą.
-* Terminale įvedam $ git clone https://github.com/Edvinas-r/MyServices.git
+* Terminale įvedam $ git clone https://github.com/Edvinas-r/MyServices/tree/master
 ### Suinstaliuojam reikiamus paketus  į client papkę:
 * Einam i client papkę: $ cd client 
 * Suinstaliuojam paketus: $ npm i 
