@@ -1,0 +1,20 @@
+.footer {
+    background-color: #738fa7; /* Tamsiai pilka spalva */
+    color: #ffffff; /* Baltos spalvos tekstas */
+    padding: 10px 0; /* Įstrižainis paddingas viršuje ir apačioje */
+  }
+  
+  .footer a {
+    color: #333232; /* Nurodome nuorodų spalvą baltai */
+  }
+  
+  .footer a:hover {
+    color: #cccccc; /* Keičiame nuorodų hover spalvą */
+  }
+  .foooter {
+    color: black;
+  }
+  
+  .text-center {
+    font-weight: 200;
+  }

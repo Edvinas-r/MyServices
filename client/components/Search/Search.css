@@ -1,0 +1,76 @@
+/* Filtrų konteineris */
+.filters-container {
+    position: fixed; /* Fiksuotas dešinėje pusėje */
+    top: 100px; /* Tarpas nuo viršaus */
+    right: 30px; /* Tarpas nuo dešinės krašto */
+    background-color: #333652; /* Baltas fonas */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Šešėlis */
+    z-index: 1000; /* Virš kitų elementų */
+  }
+  
+  /* Filtrų antraštė */
+  .filters-container h5 {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #f2e7e7;
+  }
+  
+  /* Filtrų select */
+  .filters-select {
+    background-color: #738fa7;
+    width: 100%;
+    padding: 2px;
+    font-size: 1.1rem;
+    border: 1px solid #322a2a;
+    border-radius: 4px;
+    color: rgb(234, 225, 225);
+  }
+  
+  /* SearchBar kairėje */
+  .search-bar-container {
+    position: fixed;
+    top: 100px; /* Atstumas nuo viršaus */
+    left: 20px; /* Atstumas nuo kairės */
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    background-color: #333652;
+  }
+  
+  .search-bar-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #738fa7;
+    text-align: center;
+  }
+  
+  .search-bar-input::placeholder {
+    color: rgb(58, 55, 55);
+    font-size: 1.1rem;
+  }
+  
+  .search-bar-icon {
+    color: #e1dede;
+    font-size: 1.2rem;
+    margin-left: 5px;
+  }
+  
+  .search-bar-wrapper:hover {
+    border-color: #edf2f8;
+  }
+  
+  .search-bar-input:focus {
+    border-color: none;
+    outline: none;
+  }
+  

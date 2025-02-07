@@ -1,0 +1,24 @@
+.custom-navbar {
+    background-color: #738fa7;
+  }
+  
+  .custom-navbar .nav-link {
+    color: hsl(240, 33%, 92%);
+    font-weight: bold;
+    font-size: 1.3rem; /* Padidinkite šrifto dydį */
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: rgb(7, 7, 7);
+  }
+  .custom-navbar .logo {
+    font-family: 'Lobster', cursive; /* Naudokite šriftą */
+    font-size: 2rem; /* Didesnis šrifto dydis */
+    color: white; /* Galite nustatyti spalvą */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Gražus šešėlis */
+  }
+  .logo:hover {
+    color: #007bff; /* Pakeiskite spalvą užvedus pelę */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+  

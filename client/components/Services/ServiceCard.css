@@ -1,0 +1,41 @@
+.custom-card {
+    background-color: rgb(186, 185, 188);
+    border: 1px solid black;
+  }
+  .img-round {
+    border-radius: 5%;
+  }
+  
+  .custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* Kad paveikslėlis neperžengtų kortelės ribų */
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Kortelė didės 5% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Subtilus šešėlis */
+  }
+  
+  .img-round {
+    border-radius: 15px 15px 0 0; /* Užapvalinti viršutiniai kampai */
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-card:hover .img-round {
+    transform: scale(1.1); /* Paveikslėlis priartėja 10% */
+  }
+  
+  .custom-card .card-title {
+    transition: color 0.3s ease;
+  }
+  
+  .custom-card:hover .card-title {
+    color: #2b1523; /* Mėlyna spalva užvedus pelę */
+  }
+  
+  .custom-card .card-text {
+    color: #2b2a2a; /* Tamsiai pilka spalva */
+    font-size: 0.9rem;
+  }
+  
+  
